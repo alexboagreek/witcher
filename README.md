@@ -11,6 +11,6 @@ https://www.figma.com/file/pyndrAypiuXvWfKh76ebmK/%D0%9F%D1%80%D0%BE%D0%BC%D0%BE
 1. HTML
 2. CSS
 3. JS
-4. Canvas
+
 
 ## Deploy:
