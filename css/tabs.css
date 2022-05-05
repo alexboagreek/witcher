@@ -27,6 +27,11 @@
     gap: 30px;
 }
 
+@media (max-width: 850px) {
+    .tabs__content {
+        flex-wrap: wrap;
+    }
+}
 
 @media (max-width: 480px) {
     .tabs__control {

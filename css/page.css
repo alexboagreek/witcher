@@ -98,6 +98,11 @@ iframe {
         height: 448px;
     }
 }
+@media (max-width: 650px) {
+    .container {
+        padding: 0 25px;
+    }
+}
 
 @media (max-width: 480px) {
     body {
