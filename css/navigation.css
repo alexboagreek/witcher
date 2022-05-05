@@ -1,0 +1,34 @@
+.navigation__list {
+    display: flex;
+    gap: 25px;
+}
+
+.navigation__link {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid transparent;
+    transition: border 0.8s ease, box-shadow 0.8s ease-in-out;
+    outline: none;
+}
+
+.navigation__link:hover {
+    border-color: #5B5B5B;
+}
+.navigation__link:active, .navigation__link:hover {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.navigation__link_netflix {
+    background-image: url(/assets/img/netflix.svg);
+}
+.navigation__link_okko {
+    background-image: url(/assets/img/okko.svg);
+}
+.navigation__link_kinopoisk {
+    background-image: url(/assets/img/kinopoisk.svg);
+}
