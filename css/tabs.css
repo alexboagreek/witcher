@@ -26,3 +26,12 @@
     justify-content: space-between;
     gap: 30px;
 }
+
+
+@media (max-width: 480px) {
+    .tabs__control {
+        max-width: 220px;
+        padding: 10px 30px;
+        margin-bottom: 10px;
+    }
+}
