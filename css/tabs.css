@@ -26,6 +26,14 @@
     justify-content: space-between;
     gap: 30px;
 }
+.tabs__item {
+    display: none;
+}
+.tabs__item_active {
+    display: block;
+}
+
+
 @media (max-width: 1000px) {
     .tabs__control {
         padding: 18px 38px;
@@ -40,7 +48,7 @@
     }
     .tabs__control {
         padding: 16px 46px;
-        margin: 32px;
+        margin: 16px;
     }
     .tabs__content_video {
         row-gap: 50px;
@@ -58,8 +66,18 @@
 
 @media (max-width: 480px) {
     .tabs__control {
-        max-width: 220px;
+        max-width: 290px;
+        margin-left: 0;
+        margin-right: auto;
         padding: 10px 30px;
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .tabs__control {
+      margin: 0 auto 20px;
+      max-width: 220px;
+      padding: 10px 30px;
     }
 }
